@@ -4,7 +4,7 @@ import { engine } from '@dcl/sdk/ecs'
 
 import { changeColorSystem, circularSystem } from './systems'
 import { setupUi } from './ui'
-import { createTeleporter, teleporterSystem, teleporterRippleSystem } from './teleporter'
+import { createTeleporter, teleporterSystem, teleporterRippleSystem } from './teleporter/teleporter'
 
 export function main() {
   // Defining behavior. See `src/systems.ts` file.

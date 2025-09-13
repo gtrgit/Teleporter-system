@@ -13,7 +13,7 @@ import {
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3, Color4 } from '@dcl/sdk/math'
 import { movePlayerTo } from '~system/RestrictedActions'
-import { Teleporter, TeleporterRipple } from './components'
+import { Teleporter, TeleporterRipple } from '../components'
 
 export function createTeleporter(
   position: { x: number, y: number, z: number },

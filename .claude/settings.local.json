@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm outdated:*)",
+      "WebFetch(domain:docs.decentraland.org)",
+      "Bash(npm run start:*)",
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(npm rebuild:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(npx tsc:*)"
+    ],
+    "deny": []
+  }
+}
